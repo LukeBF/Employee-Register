@@ -1,10 +1,10 @@
 
-import '../assets/App.css';
+import Table from '../components/Table'
 
-function App() {
+const App=()=> {
   return (
-    <div>
-     
+    <div className="container">
+      <Table />
     </div>
   );
 }
